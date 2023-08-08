@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ordinario</string>
+    <string name="precio">Precio</string>
+    <string name="productos_linearlayout_relativelayout"><![CDATA[Productos /> </LinearLayout> </RelativeLayout>]]></string>
+</resources>

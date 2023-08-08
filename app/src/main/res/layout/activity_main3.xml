@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/producto"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="id producto"
+            android:textColor="#F44336" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:textColor="#F44336" />
+
+        <EditText
+            android:id="@+id/preci"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="precio"
+            android:textColor="#F44338" />
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="guardar1"
+            android:text="Guardar"
+            android:textColor="#000706"
+            android:textColorHighlight="#C58A9E"
+            android:textColorHint="#AA1D4D"
+            android:textColorLink="#E91E63" />
+
+        <Button
+            android:id="@+id/eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar "
+            android:textColor="#010B0A"
+            android:textColorHighlight="#009688" />
+
+        <Button
+            android:id="@+id/actu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/leer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leer productos"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/productos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="productos" />
+
+        <Button
+            android:id="@+id/regresar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="regresar"
+            android:text="ir a menu" />
+
+    </LinearLayout>
+
+</RelativeLayout>
